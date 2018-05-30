@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\NullCommand.cs" />
+    <Compile Include="Commands\LeftCommand.cs" />
+    <Compile Include="Commands\RightCommand.cs" />
+    <Compile Include="Commands\ReportCommand.cs" />
+    <Compile Include="Commands\MoveCommand.cs" />
+    <Compile Include="Commands\PlaceCommand.cs" />
     <Compile Include="Coordinate.cs" />
     <Compile Include="Direction.cs" />
+    <Compile Include="InputParser.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Robot.cs" />
     <Compile Include="Commands\Command.cs" />

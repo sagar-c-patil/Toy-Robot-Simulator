@@ -8,7 +8,8 @@ namespace RobotSimulator.Domain.Commands
 {
     public abstract class Command
     {
-        public abstract string Execute();
-        public abstract bool IsValid { get; set; }
+        public abstract string Execute(Robot robot,params string[] args);
+        public abstract bool IsValid();
+        
     }
 }

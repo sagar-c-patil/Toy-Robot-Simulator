@@ -19,12 +19,17 @@ namespace RobotSimulator.Domain
 
         public bool IsOutSideOrigin(Coordinate newCoordinate)
         {
-            return (this.X >= newCoordinate.X && this.Y >= newCoordinate.Y);
+            return (this.X > newCoordinate.X || this.Y > newCoordinate.Y);
         }
 
         public bool IsOutSideBoundary(Coordinate newCoordinate)
         {
-            return (this.X <= newCoordinate.X && this.Y <= newCoordinate.Y);
+            return (this.X < newCoordinate.X || this.Y < newCoordinate.Y);
+        }
+
+        public override string ToString()
+        {
+            return X.ToString()+","+Y.ToString();
         }
     }
 }
