@@ -17,3 +17,7 @@ TO-DO list
 Use of dependency injection  
 Some sort of logging support  
 Enable Code analysis rules  
+
+Code Map Diagram
+---------------------------------------------------  
+![Diagram](https://github.com/sagar-c-patil/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/code%20map%20diagram.png)
